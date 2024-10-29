@@ -1,16 +1,16 @@
-# Program Name
-Team member 1, Team member 2, Team member 3
+# Random Number Game
+Evan Brown, Braxton Hartley
 
-## <program_name> Description
-Here is where you describe what the program does
+## Random Number Game Description
+ it will generate a random number and keep track of the turns with two players. It will tell you which one was closer I guess and who won.
 
-### <program_name> Flowchart
+### Random Number Game Flowchart
 ```mermaid
 graph TD;
-  A-->B;
-  A-->C;
-  A-->D;
-  A-->E;
+  Main-->display_menu;
+  Main-->players_name;
+  Main-->random_number_range;
+  Main-->random_number_game;
 ```
 
 #### Function Diagrams
