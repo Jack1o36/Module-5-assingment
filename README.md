@@ -26,7 +26,7 @@ graph TD;
 ***
 | `random_number_range`    |               |     author   |
 | ------------------ | ------------- | ------------ |
-| `Argument:input 2 numbers to become the range of the game`    | Sets a new range (input 2 numbers)  |   Braxton Hartley           |
+| `Argument:input 1 numbers to change the range of the game`    | Sets a new range (input 1 number)  |   Braxton Hartley           |
 ***
 | `Guessing game`    |               |     author   |
 | ------------------ | ------------- | ------------ |
