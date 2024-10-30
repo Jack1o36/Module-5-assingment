@@ -15,15 +15,22 @@ graph TD;
 
 #### Function Diagrams
 
-| `function name1`    |               |  author     |
+| `display_menu`    |               |  author     |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `Argument: none`    | We are displaying the main menu  |    Braxton Hartley          |
 ***
-| `function name2`    |               |     author   |
+| `players_name`    |               |     author   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `Enter a player's name`    | takes input from the user for Name  |    Evan Brown          |
+| `name:string`      | takes input for name player | returns total players |
+***
+| `random_number_range`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `Argument:input 2 numbers to become the range of the game`    | Sets a new range (input 2 numbers)  |   Braxton Hartley           |
+***
+| `Guessing game`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `Player continuously inputs numbers till correct`    | takes input from the user for _a number_  |   Evan Brown           |
+| `Range val`     | calculates _if the guessed number is higher or lower than the chosen one__  | outputs _highter or lower text_            |
+| `win`      | takes input for name _correct number__ | returns win messenger and main menu |
 ***
