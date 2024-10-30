@@ -17,7 +17,7 @@ graph TD;
 
 | `display_menu`    |               |  author     |
 | ------------------ | ------------- | ------------ |
-| `Argument: none`    | We are displaying the main menu  |    Braxton Hartley          |
+| `Argument: none`    | We are displaying the main menu and taking their choice inside of it to return to main |    Braxton Hartley          |
 ***
 | `players_name`    |               |     author   |
 | ------------------ | ------------- | ------------ |
