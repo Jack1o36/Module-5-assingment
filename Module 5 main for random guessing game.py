@@ -8,8 +8,22 @@ ranges = 1000
 
 
 def main():
-
+    choice = 0
+    
+    while choice != EXIT:
+        display_menu()
+        if choice == START:
+            players_name()
+        elif choice == RANGE:
+            random_number_range():
+        elif choice == EXIT:
+            print("Leaving the program...")
+        else:
+            print("please enter something correct")
+        
+        
 def display_menu():
+<<<<<<< Updated upstream
     print("1: start")
     print("2: range")
     print("3: exit")
@@ -27,6 +41,13 @@ def display_menu():
     else:
         print("give us real numbers please")
         display_menu()
+=======
+    print("1. Start")
+    print("2. Range")
+    print('3. Exit')
+    choice = int(input("please enter your choice: "))
+    return choice
+>>>>>>> Stashed changes
 def players_name():
     players = int(input("how many players (1-2): "))
     while players > 2 or players < 1:
