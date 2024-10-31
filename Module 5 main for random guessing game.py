@@ -15,7 +15,7 @@ def main():
         if choice == START:
             players_name()
         elif choice == RANGE:
-            random_number_range():
+            rangeselect():
         elif choice == EXIT:
             print("Leaving the program...")
         else:
