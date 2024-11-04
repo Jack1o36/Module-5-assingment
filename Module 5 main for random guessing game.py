@@ -32,6 +32,8 @@ def display_menu():
 def rangeselect():
     global ranges
     ranges = int(input("whats the range:(1-"))
+    while ranges < 1:
+        ranges = int(input("whats the range:(1-"))
 def random_number_game():
     players = int(input("how many players (1-2): "))
     while players > 2 or players < 1:
