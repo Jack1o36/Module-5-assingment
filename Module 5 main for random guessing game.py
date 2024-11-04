@@ -61,7 +61,7 @@ def random_number_game():
         if number == numberai:
             print(f"good job you got it after {tries} tries")
     if number == numberai and tries < 1:
-        print("you got it first try. thats a 1 in 1000")
+        print(f"you got it first try. thats a 1 in {range}")
         
     if players == 2:
         print(f"entering {name2}")
@@ -81,6 +81,6 @@ def random_number_game():
         if number == numberai:
             print(f"good job you got it after {tries} tries")
     if number == numberai and tries < 1:
-        print("you got it first try. thats a 1 in 1000")
+        print(f"you got it first try. thats a 1 in {range}")
 
 main()
