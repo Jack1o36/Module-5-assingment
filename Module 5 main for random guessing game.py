@@ -13,7 +13,7 @@ def main():
     while choice != EXIT:
         choice = display_menu()
         if choice == START:
-            players_name()
+            random_number_game()
         elif choice == RANGE:
             rangeselect()
         elif choice == EXIT:
@@ -29,7 +29,10 @@ def display_menu():
     choice = int(input("please enter your choice: "))
     return choice
 
-def players_name():
+def rangeselect():
+    global ranges
+    ranges = int(input("whats the range:(1-"))
+def random_number_game():
     players = int(input("how many players (1-2): "))
     while players > 2 or players < 1:
         print("cant go that low")
@@ -39,15 +42,7 @@ def players_name():
     if players == 2:
         name = input("whats your name: ")
         name2 = input("whats your name player 2: ")
-        return name, name2
-    random_number_game()
-def rangeselect():
-    global ranges
-    ranges = int(input("whats the range:(1-"))
-def random_number_game():
     numberai = randint(1, ranges)
-    name = players_name(name)
-    name2 = players_name(name2)
     tries = 0
     print(f"Entering {name}")
     global number
