@@ -11,7 +11,7 @@ def main():
     choice = 0
     
     while choice != EXIT:
-        display_menu()
+        choice = display_menu()
         if choice == START:
             players_name()
         elif choice == RANGE:
@@ -39,13 +39,15 @@ def players_name():
     if players == 2:
         name = input("whats your name: ")
         name2 = input("whats your name player 2: ")
+        return name, name2
     random_number_game()
 def rangeselect():
     global ranges
     ranges = int(input("whats the range:(1-"))
-    display_menu()
 def random_number_game():
     numberai = randint(1, ranges)
+    name = players_name(name)
+    name2 = players_name(name2)
     tries = 0
     print(f"Entering {name}")
     global number
@@ -85,4 +87,5 @@ def random_number_game():
             print(f"good job you got it after {tries} tries")
     if number == numberai and tries < 1:
         print("you got it first try. thats a 1 in 1000")
-    display_menu()
+
+main()
